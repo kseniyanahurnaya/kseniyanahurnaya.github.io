@@ -1,0 +1,35 @@
+* {
+    color: coral;
+}
+
+#main-text {
+    color: blueviolet;
+    font-size: 30px;
+}
+
+.decor-text {
+    text-transform: uppercase;
+}
+
+div.decor-text {
+    color: greenyellow;
+    background-color: aqua;
+}
+
+ul li {
+    margin-bottom: 20px;
+    color: black;
+}
+
+ul li a {
+    color: black;
+}
+
+ul li.active {
+    font-size: 40px;
+}
+
+ul li.active + li {
+    margin-top: 60 px;
+    font-style: italic;
+}
