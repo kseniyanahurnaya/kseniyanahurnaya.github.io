@@ -1,0 +1,17 @@
+p {
+    background-color: pink !important;
+}
+#text{
+    background-color: red;
+    font-size: 200px;
+}
+.text{
+    background-color: blue;
+    font-size: 40px;
+
+}
+p {
+    background-color: yellow;
+    font-size: 22px;
+
+}
