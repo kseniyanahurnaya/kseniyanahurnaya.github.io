@@ -1,0 +1,54 @@
+form {
+    padding: 2%;
+    background-color: rgb(25, 51, 73);
+}
+
+input, textarea, select {
+    color: white;
+    background-color: rgb(46, 86, 112);
+    padding; 4px;
+    border: 0px;
+    height: 25px;
+}
+
+input, textarea, select: :focus {
+    color: white;
+    background-color: white;
+    padding; 4px;
+    border: 0px;
+    height: 25px;
+}
+
+
+* {
+    color: white;
+    font-size: 15px;
+    outline: none;
+
+}
+
+input[type="submit"] {
+    outline: none;
+    width: 100px; height: 45px; 
+    background-color: rgb(5, 173, 19);
+}
+
+input[type="submit"]:active {
+    outline: none;
+    width: 100px; height: 45px; 
+    background-color: rgb(19, 97, 11);
+}
+
+textarea {
+    height: 120px; width: 200px;
+    outline: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    display: block;
+    width: 30%;
+}

@@ -1,0 +1,58 @@
+html {
+    fony-size 15px;
+}
+
+* {
+    padding: 0;
+    margin: 8;
+
+
+}
+
+
+.size-px 
+{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(82, 161, 161);
+}
+
+
+.size-pr {
+    width: 60%;
+    height: 200px;
+    background-color: rgb(233, 187, 218);
+}
+
+.size-vh {
+    width: 50vh;
+    height: 200px;
+    background-color: goldenrod;
+}
+
+.size-vw {
+    width: 50vw;
+    height: 200px;
+    background-color: rgba(168, 66, 7,.5);
+    position: relative;
+    top: -50px;
+    left: 60px;
+}
+
+.em {
+    font-size: 30px;
+
+}
+
+.em p {
+    font-size: 2em;
+}
+
+.rem {
+    font-size: 3em;
+}
+
+.rem p {
+    font-size: 1rem;
+}
+/* 1 rem=1*font-size elemrntu html */
