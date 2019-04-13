@@ -1,0 +1,20 @@
+#strawberry {
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+#strawberry-right {
+    float: right;
+    width: 200px;
+    height: 200px;
+}
+
+#strawberry {
+    float: none;
+}
+
+p:last-child{
+    background-color: yellow;
+    clear: both; 
+}
