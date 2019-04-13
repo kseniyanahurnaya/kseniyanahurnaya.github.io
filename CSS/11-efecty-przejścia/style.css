@@ -1,0 +1,36 @@
+.box {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+    
+    
+#colors {
+background-color: rgb(245, 245, 106);
+transition: background-color 3s linear 1s;
+}
+
+#colors:hover {
+background-color: brown;
+}
+
+#box1 {
+    background-color: deeppink;
+
+}
+
+#box1:hover {
+width: 300px;
+transition: width 0.5s linear 0s;
+}
+
+#box2 {
+background-color: aqua;
+}
+
+#box3 {
+    background-color: lightcoral;
+
+}
+
+

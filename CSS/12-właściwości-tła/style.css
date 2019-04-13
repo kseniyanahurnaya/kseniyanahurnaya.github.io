@@ -1,0 +1,9 @@
+#background-img {
+    background-color: lightblue;
+    background-image: url("truskawka.jpg");
+    background-repeat: no-repeat;
+  
+    background-size: cover;
+    background-attachment: fixed;
+}
+
