@@ -5,34 +5,102 @@
     background-image: url(../img/header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: contain;
     height: 20vh;
 }
+
+
 
 #linia {
     width: 60px;
     color: #007bff;
-    border: #007bff solid 0.3px;
+    border: #007bff solid 1px;
 }
 
 .na-obrazie {
     text-align: center;
+    color: #007bff;
 }
 
 h2 {
     color: #007bff;
     font-family: "Open Sans"; 
     font-style: normal;
-    font-size: 40px;
+    font-size: 50px;
 }
 
-p { 
+#paragraf-header { 
     color: #333;
     font-family: "Open Sans"; 
     font-style: normal;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .button_more {
     background-color: transparent;
     border: #007bff solid 1px;
+    width: 150px;
+    height: 30px;
 }
+
+
+
+/* NAV BAR */
+
+.pod-navigacja {
+    background-color: #007bff;
+  padding: 1px;
+  height: 30px;
+
+}
+
+.main-menu ul li {
+    display: inline-block;
+    flex-direction: row;
+    margin: 20px;
+    font-family: "Open Sans"; 
+    font-style: normal;
+    font-size: 15px;
+    color: white;
+
+}
+
+
+.main-menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-menu ul {
+    background-color: #007bff;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    margin: 0;
+}
+
+
+
+
+
+.about-me-section {
+   text-align: center;
+}
+
+.about-me-section .content p {
+
+
+}
+
+.about-me-section .content h2 {
+    color: black;
+    font-family: "Open Sans";
+   text-transform: uppercase;
+   font-size: 35px;
+
+}
+
+section.about-me-section div.content img.about-img {
+    border-radius: 50%;
+
+
