@@ -88,6 +88,9 @@ h2 {
 }
 
 .about-me-section .content p {
+    margin-left: 500px; 
+    margin-right: 500px;
+
 
 
 }
@@ -101,6 +104,8 @@ h2 {
 }
 
 section.about-me-section div.content img.about-img {
-    border-radius: 50%;
+    border-radius: 50%;}
+
+
 
 
