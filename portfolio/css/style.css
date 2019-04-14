@@ -1,0 +1,38 @@
+/* SEKCJA HEADER */
+
+#background-img {
+    padding: 150px;
+    background-image: url(../img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+}
+
+#linia {
+    width: 60px;
+    color: #007bff;
+    border: #007bff solid 0.3px;
+}
+
+.na-obrazie {
+    text-align: center;
+}
+
+h2 {
+    color: #007bff;
+    font-family: "Open Sans"; 
+    font-style: normal;
+    font-size: 40px;
+}
+
+p { 
+    color: #333;
+    font-family: "Open Sans"; 
+    font-style: normal;
+    font-size: 12px;
+}
+
+.button_more {
+    background-color: transparent;
+    border: #007bff solid 1px;
+}
