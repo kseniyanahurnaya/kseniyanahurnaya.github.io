@@ -4,45 +4,63 @@
 //     console.log(i);
 // }
 
-let tablica = ["Krystian", "Monika", "Danuta"];
-for (let i=0; i < tablica.length; ++i) {
-    console.log(tablica[i]);
-}
+// let tablica = ["Krystian", "Monika", "Danuta"];
+// for (let i=0; i < tablica.length; ++i) {
+//     console.log(tablica[i]);
+// }
 
 
 // const iteruj = (element, index) => {
 //     console.log("Element z indexem: " + index + " ma wartość " + element);
 // }
 
-tablica.forEach ( ( element, index ) => {
-    console.log("Element z indexem: " + index + " ma wartość " + element);
-});
+// tablica.forEach ( ( element, index ) => {
+//     console.log("Element z indexem: " + index + " ma wartość " + element);
+// });
 
-let person = {
-    name: 'Krystian',
-    age: 35
+// let person = {
+//     name: 'Krystian',
+//     age: 35
+// }
+
+// for(let key in person) {
+//     console.log(person[key]);
+
+// }
+
+// let iterable = [10, 20, 30];
+
+// for (let value of iterable) {
+//     value += 1;
+//     console.log(value);
+// }
+
+// let it = 0;
+// while ( it < 10) {
+//     console.log(it);
+//     it++;
+// }
+
+// let iter = 20;
+// do {
+//     iter++;
+
+// } while ( iter < 10);
+
+// let a=0;
+// while (a < 10) {
+//     console.log(++a);
+
+//     if (a==5) {
+//         break;
+//     }
+// }
+
+for (let b=0; b<10; ++b) {
+    if (b == 5) {
+        continue;
+    } else {
+        console.log(b);
+    }
+    console.log("--")
 }
-
-for(let key in person) {
-    console.log(person[key]);
-
-}
-
-let iterable = [10, 20, 30];
-
-for (let value of iterable) {
-    value += 1;
-    console.log(value);
-}
-
-let it = 0;
-while ( it < 10) {
-    console.log(it);
-    it++;
-}
-
-let iter = 20;
-do {
-    iter++;
-
-} while ( iter < 10);
