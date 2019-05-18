@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bootstrap</title>
+</head>
+
+<body>
+    <!-- buttony -->
+    <div class="py-5">
+        <button class="btn btn-primary btn-lg">button 1</button>
+        <button class="btn btn-outline-warning btn-sm">button 2</button>
+        <button class="btn btn-link">button 3</button>
+        <button class="btn btn-danger">button 4</button>
+        <button class="btn">button 5</button>
+    </div>
+
+
+    <!-- grid -->
+    <!-- grid wymaga odpowiedzniej struktury. 
+    zaczynamy od elementu container lub container-fluid, 
+    w nim koniecznie umieszczamy element z klasa row 
+    i dopiero wtedy mozemy uzywac elementow kolumn z klassa /col*-. -->
+
+    <div class="container">
+        <div class="row">
+            <div class="item col-lg-4 col-md-6 col-sm-2 col-6 text-center text-uppercase"> Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Libero nulla neque fuga quo voluptatem cum expedita et! Debitis doloribus
+                nemo mollitia iusto, quisquam minima provident illo odio amet nobis eligendi!</div>
+            <!-- 992px uklad 3 kol. 12/4 (lg)
+>768px && <992px 2 kol. 12/6 (md)
+>576px && <768px 12/2 (sm)
+<576px 12/6 (brak prefiksu)-->
+
+            <div class="item  col-lg-4 col-md-6 text-right">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aliquam consequuntur accusamus cum aliquid atque deserunt ab porro expedita similique nisi, ducimus
+                provident! Ab similique vero, atque ipsum eum rem repellat.
+                Illum, laboriosam, maiores tempora totam rem commodi asperiores eveniet quos ipsum eum, ea ad a possimus
+                nisi doloremque nulla. Amet natus porro enim magni consequuntur dolore pariatur in odio vero.
+                At sed enimMolestias qui optio nostrum excepturi placeat, earum ea a atque, laudantium iste voluptates
+                voluptatibus tempora eos nobis distinctio? Quas voluptatibus, velit at nostrum accusantium animi
+                doloribus vitae culpa. Excepturi, alias.
+            </div>
+            <div class="item col-lg-4 col-md-12 text-capitalize">Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Quibusdam perferendis, vero sed perspiciatis dignissimos nihil possimus nulla ab saepe dolore,
+                voluptates tempora odit omnis praesentium temporibus et? Dolores, hic nemo.</div>
+        </div>
+    </div>
+
+
+    <!-- /grid -->
+
+
+    <!-- kontenery -->
+
+    <!-- <div class="container"></div>
+    <div class="container-fluid"></div> -->
+
+    <!-- /kontenery -->
+</body>
+
+</html>
